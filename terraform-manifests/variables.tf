@@ -19,8 +19,3 @@ variable "ec2_size" {
   type = string
   description = "EC2 Instance size"
 }
-
-variable "aws_region" {
-  type = string
-  description = "AWS Resources default region"
-}
